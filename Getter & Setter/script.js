@@ -27,14 +27,14 @@ console.info(person2.fullName);
 
 //setter
 
-let person3 = {
+const person3 = {
     firstName1 : "khairul",
     lastName1 : "Anwar",
-    get fullName1 (){
+    get fullName1(){
         return `${this.firstName1} ${this.lastName1}`;
     },
-    set fullName1 (value){
-        let array = value.split(" ");
+    set fullName1(value){
+        const array = value.split(" ");
         this.firstName1 =  array[0];
         this.lastName1 = array[1];
     }
@@ -46,7 +46,7 @@ console.table(person3);
 person3.fullName1 = "sigit arrya";
 console.table(person3);
 
-person3.fullName1 = "budi nugraha";
+person3.fullName1 = "rudi salmanan";
 console.table(person3);
 
 
