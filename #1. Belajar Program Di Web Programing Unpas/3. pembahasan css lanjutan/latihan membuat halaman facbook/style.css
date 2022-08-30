@@ -1,0 +1,58 @@
+body{
+    background-color:whitesmoke;
+}
+
+.container{
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.content{
+    width: 500px;
+    height: 350px;
+    background-color:white;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    
+}
+
+.content input{
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.content button[type="submit"]{
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.content button[type="submit"]:hover{
+    cursor: pointer;
+    background-color: aqua;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}

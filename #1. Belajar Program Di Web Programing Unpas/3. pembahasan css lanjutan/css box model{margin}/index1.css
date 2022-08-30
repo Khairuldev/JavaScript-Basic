@@ -1,0 +1,50 @@
+div{
+    /* display: inline-block; */
+}
+
+.satu{
+    width: 500px;
+    height: 300px;
+    background-color: red;
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+    overflow: scroll;
+    border: 5px solid black;
+    
+}
+
+img{
+    float: right;
+    padding: 5px;
+}
+
+.kotak{
+    width: 80px;
+    height: 80px;
+    background-color: saddlebrown;
+    margin: 5px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 80px;
+    float: right;
+}
+
+/* .dua{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    margin-left: 350px;
+    margin-top: -300px;
+    overflow: scroll;
+    border: 5px dotted black;
+}
+
+.tiga{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin-left: 530px;
+    margin-top: -100px;
+    overflow: scroll;
+    border: 5px dashed black;
+} */

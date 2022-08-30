@@ -1,0 +1,17 @@
+body{
+    background-color:whitesmoke;
+    background-image:url(gambar/logo1.jpg);
+    background-repeat:repeat-x;
+    background-position: center/center;
+}
+
+/* body{
+    background-image: url(gambar/logo1.jpg) lightblue no-repeat center;
+} */
+/* h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: red;
+    font-style: italic;
+    font-variant: small-caps;
+
+} */

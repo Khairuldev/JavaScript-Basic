@@ -1,0 +1,230 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* style */
+
+body{
+    font: 16px/28px arial, sans-serif;
+    border-color: #eaeaea;
+    background-color: #333;
+    background-image: url(gambar/ep_naturalblack.webp);
+}
+
+.top-bar{
+    height: 50px;
+    background-color: #666;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 3px solid aqua;
+}
+.container{
+    width: 960px;
+    margin: 80px auto;
+    background-image: url(gambar/ep_naturalblack.webp);
+    position: relative;
+   
+}
+
+.twitter{
+    width: 200px;
+    height: 200px;
+    /* background-image: url(gambar/blacktwit.png); */
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -9999px;
+    position: absolute;
+    right: -30px;
+    top: -25px;
+    
+}
+
+.header{
+    padding: 20px;
+    padding-bottom: 10px;
+
+}
+
+.header .judul{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+    color: red;
+    
+}
+
+
+.header ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.header a{
+    text-decoration: none;
+    color: salmon;
+    padding: 3px;
+}
+
+.header a:hover{
+    background-color: aqua;
+    color: white;
+}
+
+.gambar{
+    height: 320px;
+    background-image: url(gambar/logo1.jpg);
+    background-size: cover;
+    background-position: 0px -100px;
+    border-top: 5px solid coral;
+    border-bottom: 5px solid skyblue;
+}
+
+/* content */
+
+.content{
+    background-image: url(gambar/ep_naturalblack.webp);
+}
+
+/* main */
+.main{
+    padding: 20px;
+    width: 600px;
+    box-sizing: border-box;
+    float: left;
+    
+}
+
+.main .judul2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color:white;
+    font-weight: lighter;
+    
+}
+
+.main p{
+    color:whitesmoke;
+    padding-top: 10px;
+}
+
+.main .penulis{
+    color: crimson;
+    font: 15px/18px arial;
+}
+
+.main a{
+    color: salmon;
+    text-decoration: none;
+}
+
+.main a:hover{
+    color: maroon;
+    background-color: aquamarine;
+    
+}
+
+/* sidebar */
+
+.sidebar{
+    width: 300px;
+    float: right;
+    padding: 20px;
+}
+
+.sidebar h3{
+    font-weight: bold;
+    color: #666;
+
+}
+
+.sidebar img{
+    width: 70px;
+    height: 70px;
+    float: left;
+    padding-right: 10px;
+}
+
+.sidebar p{
+    font: 12px/18px arial;
+    color: #eaeaea
+    
+}
+
+.fotter{
+    text-align: center;
+    font-weight: bold;
+    color: sandybrown;
+    padding: 10px;
+}
+
+/* clearfix */
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+
+
+
+
+

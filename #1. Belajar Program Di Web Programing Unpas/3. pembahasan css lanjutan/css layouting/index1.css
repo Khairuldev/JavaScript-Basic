@@ -1,0 +1,51 @@
+body{
+    background-image: url(/gambar/latar2.jpg);
+    
+}
+
+.header{
+    text-align:center;
+    background-color: black;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    font-variant: small-caps;
+}
+
+
+.navigasi{
+    background-color: white;
+}
+
+.navigasi li{
+    display: inline;
+    
+}
+
+.navigasi a{
+    background-color: red;
+}
+
+.main p{
+    background-color:wheat;
+    width: 50%;
+    height: 100px;
+    overflow: scroll;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    background-color: yellow;
+    margin-left: 300px;
+    margin-top: -200px;
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fotter{
+    color: white;
+    text-align: center;
+    background-color: black;
+}

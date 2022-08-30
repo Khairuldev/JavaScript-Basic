@@ -1,0 +1,68 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+h2{
+    color: aqua;
+}
+
+/* ul li a {
+    color: yellow;
+}
+
+ol li a {
+    color: green;
+} */
+
+/* /* #p1{
+    color: black;
+}
+
+.p2{
+    color:black;
+}
+
+p.cetak_tipis {
+    color: black; 
+} */
+
+/* .cetak_tipis{
+    color: blue;
+} */
+
+.hello:link{
+    color: green;
+}
+
+.hello:hover{
+    color: yellow;
+    font-family: arial;
+    font-size:20px;
+}
+
+.hello:active{
+    font-style: italic;
+}
+
+.hello:visited{
+    color: brown;
+}
+
+
+
+li:nth-child(odd) a{
+    color: green;
+}
+
+li:nth-child(odd) a:hover{
+    color:red;
+}
+
+p:first-of-type{
+    color: goldenrod;
+}
+
